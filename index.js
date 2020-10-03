@@ -11,7 +11,7 @@ client.on("ready", () => console.log("Ready!"));
 
 client.on("message", async (message) => {
     if (message.content.toLowerCase().startsWith("?battleship"))
-        await BattleShip.createGame(message);
+        await BattleShip.createGame();
 });
 
 client.login(config.token);

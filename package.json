@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord-battleship": "file:../../npm-packages/discord-battleship",
+    "discord-battleship": "^1.0.1",
     "discord.js": "^12.3.1"
   }
 }
