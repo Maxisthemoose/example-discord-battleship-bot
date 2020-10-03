@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord-battleship": "file:../../npm-packages/discord-battleship",
+    "discord.js": "^12.3.1"
+  }
 }
